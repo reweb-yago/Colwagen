@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ⚡>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    
+    <title>Amp - template</title>
+
+    <link rel="canonical" href="https://amp.dev/pt_br/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+
+</head>
+
+<body>
+    <section class="background-header">
+        <header class="container header">
+
+            <div class=" header_sections w-100">
+                <div class="header_sections__div">
+                    <section class="header__menu w-50">
+                        
+                        <button type="button" on="tap:open-modal"><i class="fas fa-bars"></i></button>
+
+                        <amp-lightbox id="open-modal" layout="nodisplay">
+                            <ul class="header__sub-menu">
+                                    <button class="btn-close" on="tap:open-modal.close">X</button>
+                                    <li class="item-menu"><a href="https://amp.dev/">Item 1</a></li>
+                                    <li class="item-menu"><a href="https://amp.dev/">Item 2</a></li>
+                                    <li class="item-menu"><a href="https://amp.dev/">Item 3</a></li>
+                                    <li class="item-menu"><a href="https://amp.dev/">Item 4</a></li>
+                                </ul>
+                        </amp-lightbox>
+
+                    </section>
+
+                    <section class="header__redes w-50">
+                    
+                            <ul>
+                                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        
+                    </section>
+                </div>
+
+                <section>
+                        <article class="header__logo w-100">
+                        
+                            <figure class="w-100">
+                                <amp-img class="header__logo-img" src="../../imagens/header/logo_header.png"
+                                    width="90"
+                                    height="70">
+                                </amp-img>
+                            </figure>
+                            
+                        </article>
+                </section>
+
+            </div>
+
+        </header>
+    </section>
+</body>
+</html>
